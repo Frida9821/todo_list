@@ -31,24 +31,31 @@ figure {
 .input-button{
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
-    margin:0 300px 20px 300px;
+    justify-content: center;
+    /* margin:0 300px 20px 300px; */
+}
+
+.input-button button{
+    margin-left: 20px
 }
 
 .example-full-width {
     width: 600px;
   }
 
-.example-container {
-    width: auto;
-    max-height: 200px;
-    height: auto;
-    margin: 70px 400px 70px 400px;
-    overflow: auto;
-    border-radius: 10px;
+  .card-container{
     display: flex;
     align-items: center;
     justify-content: center;
+  }
+
+.example-container {
+    width: 800px;
+    max-height: 200px;
+    height: auto;
+    overflow: auto;
+    border-radius: 10px;
+    text-align: center;
   }
 
 table{
